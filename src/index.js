@@ -3,9 +3,8 @@
 import { LinkedList } from "./linked-list.js";
 
 const linkedList = new LinkedList();
-linkedList.append("testing");
-linkedList.append("testing");
-linkedList.append("123");
-linkedList.append("456");
-
-console.log(linkedList);
+linkedList.prepend("testing1");
+linkedList.prepend("testing");
+linkedList.prepend("123");
+linkedList.prepend("456");
+linkedList.prepend("789");
